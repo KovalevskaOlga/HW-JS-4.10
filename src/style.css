@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.title1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sec {
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  max-width: 180px;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+}
+
+
+.again {
+  font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #135e3f;
+  color: white;
+  cursor: pointer;
+  display: block;     
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.again:hover {
+  background-color: #218838;
+}
+
+.title2 {
+    color: rgb(38, 185, 24);
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  transition: opacity 1.5s ease;
+  text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: rgb(88, 143, 90);
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+      position: relative;
+       left: 0; 
+  transition: left 2s ease;
+}
+
+.title3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.start-btn {
+ font-size: 16px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #135e3f;
+  color: white;
+  cursor: pointer;
+  display: block;     
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
+.show-sec {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.click-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #c4d61b;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+     margin: 0 auto;
+  margin-top: 30px;
+
+  }
+
+  .time-over {
+    text-align: center;
+    font-size: 20px;
+    color: #e02b0b;
+  }
+
+  .score {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .title4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.title4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.time-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time-start-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+   background-color: #135e3f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.time-start-btn:hover {
+  background-color: #218838;
+}
+
+.message4 {
+  font-size: 18px;
+  color: #444;
+  margin-top: 20px;
+  text-align: center;
+}
