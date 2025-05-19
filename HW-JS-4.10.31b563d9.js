@@ -703,6 +703,54 @@ setInterval(()=>{
     moved = !moved;
     getCircle.style.left = moved ? "1760px" : "0px";
 }, 1000);
+// 3
+const getStartBtn = document.querySelector(".start-btn");
+const getShowSec = document.querySelector(".show-sec");
+const getTimeOver = document.querySelector(".time-over");
+const getClickBtn = document.querySelector(".click-btn");
+const getScore = document.querySelector(".score");
+let sec = 0;
+let score = 0;
+let timer2;
+let isGameActive = false;
+function startGame() {
+    clearInterval(timer2);
+    sec = 30;
+    score = 0;
+    isGameActive = true;
+    getShowSec.textContent = sec;
+    getScore.textContent = score;
+    getTimeOver.textContent = "";
+    timer2 = setInterval(()=>{
+        sec -= 1;
+        getShowSec.textContent = sec;
+        if (sec <= 0) {
+            clearInterval(timer2);
+            getTimeOver.innerHTML = "\u0427\u0430\u0441 \u0437\u0430\u043A\u0456\u043D\u0447\u0438\u0432\u0441\u044F";
+            isGameActive = false;
+        }
+    }, 1000);
+}
+function gameClick() {
+    if (isGameActive) {
+        score += 1;
+        getScore.textContent = score;
+    }
+}
+getStartBtn.addEventListener("click", startGame);
+getClickBtn.addEventListener("click", gameClick);
+// 4
+const getBtnStart = document.querySelector(".time-start-btn");
+const getInput = document.querySelector(".time-input");
+const getMessage = document.querySelector(".message4");
+function startTime() {
+    const secondsInput = Number(getInput.value);
+    getMessage.textContent = "\u041E\u0447\u0456\u043A\u0443\u0454\u043C\u043E..";
+    setTimeout(()=>{
+        getMessage.textContent = `\u{41F}\u{440}\u{43E}\u{439}\u{448}\u{43B}\u{43E} ${secondsInput} \u{441}\u{435}\u{43A}\u{443}\u{43D}\u{434}`;
+    }, secondsInput * 1000);
+}
+getBtnStart.addEventListener("click", startTime);
 
 },{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequireabde", {})
 

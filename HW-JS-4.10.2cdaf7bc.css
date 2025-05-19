@@ -33,15 +33,16 @@ body {
   margin: 30px auto 0;
   padding: 10px 30px;
   font-size: 16px;
+  transition: background-color .3s;
   display: block;
 }
 
 .again:hover {
-  background-color: #d0d0d0;
+  background-color: #218838;
 }
 
 .title2 {
-  color: #db7093;
+  color: #26b918;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -58,5 +59,102 @@ body {
   transition: left 2s;
   position: relative;
   left: 0;
+}
+
+.title3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.start-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #135e3f;
+  border: none;
+  border-radius: 6px;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  font-size: 16px;
+  transition: background-color .3s;
+  display: block;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
+.show-sec {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.click-btn {
+  color: #000;
+  cursor: pointer;
+  background-color: #c4d61b;
+  border: none;
+  border-radius: 10px;
+  margin: 30px auto 0;
+  padding: 15px 30px;
+  font-size: 20px;
+  display: block;
+}
+
+.time-over {
+  text-align: center;
+  color: #e02b0b;
+  font-size: 20px;
+}
+
+.score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.title4 {
+  text-align: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.time-input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+.time-start-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #135e3f;
+  border: none;
+  border-radius: 6px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+  display: block;
+}
+
+.time-start-btn:hover {
+  background-color: #218838;
+}
+
+.message4 {
+  color: #444;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
 }
 /*# sourceMappingURL=HW-JS-4.10.2cdaf7bc.css.map */
